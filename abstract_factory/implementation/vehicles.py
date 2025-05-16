@@ -3,9 +3,9 @@ from core.vehicle import Vehicle
 
 class Ship:
     def move(self) -> str:
-        return "приплыл"
+        return "sailed"
 
 
 class Truck:
     def move(self) -> str:
-        return "приехал"
+        return "drove"
