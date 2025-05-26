@@ -24,3 +24,7 @@ fixable = ["ALL"]
 [tool.ruff.format]
 # Like Black, use double quotes for strings.
 quote-style = "double"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"

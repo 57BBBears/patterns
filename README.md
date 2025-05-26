@@ -1,6 +1,7 @@
-**Design patterns.**
+# Design patterns. #
 
-**Creational patterns:** 
+
+## Creational patterns ## 
 
 **Abstract factory** - creates objects which somehow deal with each other. 
 The simplest implementation consist of a few fabric methods, more complex factory
@@ -15,8 +16,14 @@ know about an object class (got it transferred from somewhere) or initialization
 process is complicated.
 
 
-**Behavioral patterns:**
+## Behavioral patterns ##
 
 **Visitor** - implements double dispatch principle. Pattern is used when we have limited 
  amount of objects and multiple interfaces. Allows adding actions upon objects without
 editing ones.
+
+
+## Structural patterns ##
+
+**Bridge** - decouples abstraction and implementation. Allows extending both 
+independently. Can be used when a class may be extended in different ways.
