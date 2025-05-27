@@ -1,4 +1,4 @@
-# Design patterns. #
+# Design patterns #
 
 
 ## Creational patterns ## 
@@ -25,5 +25,11 @@ editing ones.
 
 ## Structural patterns ##
 
+**Adapter** - adapts classes with incompatible interfaces to make possible the 
+communication between them.
+
 **Bridge** - decouples abstraction and implementation. Allows extending both 
 independently. Can be used when a class may be extended in different ways.
+
+**Decorator** - adds new functionality to a function or to an object without changing 
+other same class objects.
