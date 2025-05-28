@@ -33,3 +33,7 @@ independently. Can be used when a class may be extended in different ways.
 
 **Decorator** - adds new functionality to a function or to an object without changing 
 other same class objects.
+
+**Proxy** - emulates behavior of the original object by giving access to it. The goal
+is allowing additional functionality like restricting access or postpone getting the 
+'expensive'/remote proxied object until it's required.
