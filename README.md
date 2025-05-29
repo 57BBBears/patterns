@@ -22,6 +22,9 @@ process is complicated.
 result of the action. Dispatches responsibility to one or more handlers without knowing
 which one is going to accept the request if any.
 
+**Command** - decouples an invoker of the action from a receiver of the action. 
+Encapsulates the action into a separate Command class. 
+
 **Visitor** - implements double dispatch principle. Pattern is used when we have limited 
  amount of objects and multiple interfaces. Allows adding actions upon objects without
 editing ones.
