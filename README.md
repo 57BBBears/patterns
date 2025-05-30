@@ -23,7 +23,11 @@ result of the action. Dispatches responsibility to one or more handlers without 
 which one is going to accept the request if any.
 
 **Command** - decouples an invoker of the action from a receiver of the action. 
-Encapsulates the action into a separate Command class. 
+Encapsulates the action into a separate Command class.
+
+**Mediator** - simplify a system where a lot of objects communicate to each other by
+decoupling and implementing their collaboration into itself. The system objects know 
+only a mediator but a mediator knows each object. 
 
 **Visitor** - implements double dispatch principle. Pattern is used when we have limited 
  amount of objects and multiple interfaces. Allows adding actions upon objects without
