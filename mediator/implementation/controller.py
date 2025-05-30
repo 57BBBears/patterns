@@ -8,9 +8,17 @@ class DeviceController(Controller):
     """Gets measurements from devices and set monitor values depending on the gotten
     values and own limits, thus a controller manages collaboration."""
 
+    _instance = None
+
     PRESSURE_LIMIT = 80
     TEMP_LIMIT = 0
     VOLTAGE_LIMIT = 0
+
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+
+        return cls._instance
 
     def __init__(self):
         self._devices = []

@@ -19,6 +19,7 @@ class Device:
 
     def __init__(self, controller: Controller):
         self._controller = controller
+        self._controller.add(self)
         self._value: float | None = None
 
     def measure(self):
