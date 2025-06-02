@@ -27,7 +27,15 @@ Encapsulates the action into a separate Command class.
 
 **Mediator** - simplify a system where a lot of objects communicate to each other by
 decoupling and implementing their collaboration into itself. The system objects know 
-only a mediator but a mediator knows each object. 
+only a mediator but a mediator knows each object.
+
+**State** - represents states of a process as classes with different behavior. Process
+context or state objects can change the inner state of the context and by this avoid 
+using multiple if else constructions.
+
+**Template method** - consists of other operations which should be overwritten in 
+subclasses. Those operations may be hook methods (on_create, on_delete, etc.) then a 
+template method may have default implementation or fabric methods or both.
 
 **Visitor** - implements double dispatch principle. Pattern is used when we have limited 
  amount of objects and multiple interfaces. Allows adding actions upon objects without
