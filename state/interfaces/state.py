@@ -22,7 +22,7 @@ class Transaction(ABC):
 
 class TransactionState(ABC):
     """Transaction states can be permanent - being created at once and initialised by a
-    transaction or be permanent like here and accept transaction instance as needed."""
+    transaction or be temporary like here and accept transaction instance as needed."""
 
     @abstractmethod
     def open(self, transaction: Transaction): ...
